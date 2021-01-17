@@ -1,6 +1,5 @@
 <template>
     <div class="bio">
-        <h2>Bio</h2>
         <p>
             From the small Aboriginal community of Woorabinda in Central Queensland comes a 21 year old with a voice ready to be heard.
             <br><br>
@@ -24,5 +23,20 @@ export default {
 </script>
 
 <style>
+    #app {
+        background-image: url('~@/assets/miiesha-02.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bio {
+        max-width: 900px;
+        text-align: left;
+        color: #ffffff;
+        padding: 30px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
     
 </style>
