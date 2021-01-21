@@ -1,6 +1,6 @@
 <template>
     <div id="home">
-        <iframe src="https://open.spotify.com/embed/artist/1ehGGQnc7E28DNwhvnFuyL" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://open.spotify.com/embed/artist/1ehGGQnc7E28DNwhvnFuyL" width="300" height="420" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 </template>
 
@@ -12,7 +12,6 @@ export default {
 
 <style>
     #app {
-        background-image: url('~@/assets/miiesha-01.jpg');
         background-position: center;
         background-size: cover;
     }

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :style="{ backgroundImage: `url('${background}')` }">
     <div class="menu">
         <a href="/">
             <img class="logo" src="~@/assets/miiesha-logo-01.png" alt="Miiesha">
@@ -50,6 +50,39 @@
   </div>
 </template>
 
+<script>
+import homeBackground from '@/assets/miiesha-01.jpg'
+import bioBackground from '@/assets/miiesha-02.jpg'
+import watchBackground from '@/assets/miiesha-03.jpg'
+import contactBackground from '@/assets/miiesha-04.jpg'
+export default {
+    data() {
+      return {
+        background: homeBackground,
+      }
+    },
+  watch: {
+    '$route' () {
+      if (this.$route.path === '/') {
+        this. background = homeBackground
+      }
+      else if (this.$route.path === '/bio') {
+        this. background = bioBackground
+      }  
+      else if (this.$route.path === '/watch') {
+        this. background = watchBackground
+      }  
+      else if (this.$route.path === '/contact') {
+        this. background = contactBackground
+      }  
+      else {
+        this. background = homeBackground
+      }
+    }
+  }
+}
+</script>
+
 <style scoped>
   .menu a {
         text-decoration: none!important;
@@ -58,7 +91,9 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: color;
+  font-family: Arial, sans-serif, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -75,55 +110,69 @@ body {
 }
 
 .logo {
-        display: block;
-        margin: 0 auto;
-        padding: 20px;
-        width: 240px;
-        height: auto;
-    }
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  width: 240px;
+  height: auto;
+}
 
-    ul {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .menu li {
-      padding: 20px 20px;
-      font-size: 22px;
-      font-weight: 400;
-      text-align: center;
-      color: #ffffff;
-      transition: ease-in-out;
-      transition-duration: .2s;
-    }
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+  
+.menu li {
+  padding: 20px 20px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  transition: ease-in-out;
+  transition-duration: .2s;
+}
 
-    #footer, #footer a {
-      color: #ffffff
-    }
+p, h1, h2, h3, h4, h5, h6 {
+  line-height: normal;
+}
 
-    .social-icons li {
-      padding: 20px;
-      transition: ease-in-out;
-      transition-duration: .2s;
-    }
+p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 300;
+}
 
-    li:hover {
-        opacity: 0.75;
-    }
+#footer, #footer a {
+  color: #ffffff;
+}
 
-    .slide-enter-active,
-    .slide-leave-active {
-      transition: opacity .2s, transform .2s;
-    }
+#footer p {
+  font-size: 16px;
+}
 
-    .slide-enter,
-    .slide-leave-to {
-      opacity: 0;
-      animation: fadeIn .2s ease-in;
-    }
+.social-icons li {
+  padding: 20px;
+  transition: ease-in-out;
+  transition-duration: .2s;
+}
+
+li:hover {
+    opacity: 0.75;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity .2s, transform .2s;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  animation: fadeIn .2s ease-in;
+}
 
 </style>

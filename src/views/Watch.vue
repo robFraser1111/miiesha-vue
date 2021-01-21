@@ -1,6 +1,8 @@
 <template>
-    <div class="watch">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/1LrXv9hOAHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class='watch'>
+        <div class='embed-container'>
+            <iframe src='https://www.youtube.com/embed//1LrXv9hOAHo' frameborder='0' allowfullscreen></iframe>
+        </div>
     </div>
 </template>
 
@@ -11,14 +13,32 @@ export default {
 </script>
 
 <style>
+
 .watch {
-    padding: 30px;
-    display: flex;
+    padding: 30px 0;
+    max-width: 900px;
+    width: 100%;
     justify-self: center;
-    align-items: center;
+    align-self: center;
 }
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
 #app {
-    background-image: url('~@/assets/miiesha-03.jpg');
     background-position: center;
     background-size: cover;
 }

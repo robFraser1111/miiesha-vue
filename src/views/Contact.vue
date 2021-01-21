@@ -3,7 +3,7 @@
         <p>
             Bookings<br>
             <a href="mailto:katie@villagesounds.com">katie@villagesounds.com</a>
-            <br><br>
+            <br><br><br>
             Management<br>
             <a href="mailto:info@miiesha.com">info@miiesha.com</a>
         </p>
@@ -27,11 +27,13 @@ export default {
         justify-self: center;
         align-items: center;
         color: #ffffff;
+    }
+
+    .contact p {
         font-size: 24px;
     }
 
     #app {
-        background-image: url('~@/assets/miiesha-04.jpg');
         background-position: center;
         background-size: cover;
     }

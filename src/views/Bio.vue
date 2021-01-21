@@ -24,7 +24,6 @@ export default {
 
 <style>
     #app {
-        background-image: url('~@/assets/miiesha-02.jpg');
         background-position: center;
         background-size: cover;
     }
