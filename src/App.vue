@@ -51,16 +51,21 @@
 </template>
 
 <script>
+// Import background images
 import homeBackground from '@/assets/miiesha-01.jpg'
 import bioBackground from '@/assets/miiesha-02.jpg'
 import watchBackground from '@/assets/miiesha-03.jpg'
 import contactBackground from '@/assets/miiesha-04.jpg'
+
+// Data store
 export default {
     data() {
       return {
         background: homeBackground,
       }
     },
+
+  // watch function to dynamically change background image for #app
   watch: {
     '$route' () {
       if (this.$route.path === '/') {
@@ -128,7 +133,7 @@ ul {
   
 .menu li {
   padding: 20px 20px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   text-align: center;
   color: #ffffff;
