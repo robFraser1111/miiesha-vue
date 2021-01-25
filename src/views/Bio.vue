@@ -23,10 +23,6 @@ export default {
 </script>
 
 <style>
-    #app {
-        background-position: center;
-        background-size: cover;
-    }
 
     .bio {
         max-width: 900px;

@@ -41,7 +41,7 @@
         </ul>
         <p>
           <small>
-          Photography by <a href="/" target="_blank">Clare Nica</a> and <a href="/" target="_blank">Thom Mitchell</a>
+          Photography by <a href="https://www.instagram.com/clarenicaa/" target="_blank">Clare Nica</a> and <a href="https://www.instagram.com/thommitchell/" target="_blank">Thom Mitchell</a>
           <br>
           Website powered by <a href="https://roo.digital" target="_blank">RooDigital</a>
           </small>
@@ -97,8 +97,10 @@ export default {
 <style>
 #app {
   background-color: rgb(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
   background-blend-mode: color;
-  font-family: Arial, sans-serif, Helvetica;
+  font-family: Lato, Roboto, Arial, sans-serif, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -132,7 +134,7 @@ ul {
 }
   
 .menu li {
-  padding: 20px 20px;
+  padding: 10px 20px;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -160,7 +162,7 @@ p {
 }
 
 .social-icons li {
-  padding: 20px;
+  padding: 10px 20px;
   transition: ease-in-out;
   transition-duration: .2s;
 }

@@ -11,15 +11,15 @@ export default {
 </script>
 
 <style>
-    #app {
-        background-position: center;
-        background-size: cover;
-    }
     
     #home {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 30px;
+    }
+
+    #home iframe {
+        display: none;
     }
 </style>

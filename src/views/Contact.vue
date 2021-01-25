@@ -32,9 +32,4 @@ export default {
     .contact p {
         font-size: 24px;
     }
-
-    #app {
-        background-position: center;
-        background-size: cover;
-    }
 </style>

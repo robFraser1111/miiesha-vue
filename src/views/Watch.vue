@@ -38,8 +38,4 @@ export default {
     height: 100%; 
 }
 
-#app {
-    background-position: center;
-    background-size: cover;
-}
 </style>
