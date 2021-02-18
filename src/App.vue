@@ -95,12 +95,19 @@ export default {
 </style>
 
 <style>
+
+@font-face {
+  font-family: "Varela Round";
+  src: local("Varela Round"),   url(./assets/VarelaRound-Regular.ttf) format("truetype");
+  }
+
+
 #app {
+  font-family: "Varela Round", Roboto, Arial;
   background-color: rgb(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   background-blend-mode: color;
-  font-family: Lato, Roboto, Arial, sans-serif, Helvetica;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
