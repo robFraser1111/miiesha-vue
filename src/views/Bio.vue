@@ -1,11 +1,11 @@
 <template>
     <div class="bio">
     <p>
-    "Miiesha holds multitudes – she is a movement" - Cyclone Wehner - NME
+    <i>"Miiesha holds multitudes – she is a movement" - Cyclone Wehner - NME</i>
     <br><br>
     The incredible voice and storytelling of Miiesha returns as soulful and heartbreaking as ever in her new single "Damaged". After a breakout 2020 Miiesha returns with her much anticipated follow up, produced by LUCIANBLOMKAMP (6lack), with vocal production by Simon Cohen (Justin Bieber).
     <br><br>
-    "Damaged is my most personal song yet, and the most pain-ful for me. It is a song about the broken relationship I have with my mother, and how much I have wanted it to heal, and how much I have tried to fix it, only to find myself hurting more." - Miiesha
+    <i>"Damaged is my most personal song yet, and the most pain-ful for me. It is a song about the broken relationship I have with my mother, and how much I have wanted it to heal, and how much I have tried to fix it, only to find myself hurting more." - Miiesha</i>
     <br><br>
     From the small Aboriginal community of Woorabinda, Aus-tralia, Miiesha arrived on the RnB landscape with a sound and a story that instantly demanded attention.
     <br><br>
