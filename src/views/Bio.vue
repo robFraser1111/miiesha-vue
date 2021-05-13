@@ -15,7 +15,6 @@
             <br><br>
             With a voice that showcases vulnerability and strength, often in the one breath, Miiesha sings of her people, her community and her story with the raw emotion of lived experience. She weaves together the personal and political so tightly, the listener begins to understand just how inseparable they are for a young Aboriginal woman.
             <br><br>
-            <br><br>
             Miiesha's story is not just worth hearing, it's needed.
         </p>
     </div>
