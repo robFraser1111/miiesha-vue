@@ -1,7 +1,7 @@
 <template>
     <div class='watch'>
         <div class='embed-container'>
-            <iframe src='https://www.youtube.com/embed//1LrXv9hOAHo' frameborder='0' allowfullscreen></iframe>
+            <iframe src='https://www.youtube.com/embed/V8aKZO8K4pQ' frameborder='0' allowfullscreen></iframe>
         </div>
     </div>
 </template>
