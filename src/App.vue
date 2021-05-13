@@ -41,7 +41,7 @@
         </ul>
         <p>
           <small>
-          Photography by <a href="https://www.instagram.com/clarenicaa/" target="_blank">Clare Nica</a> and <a href="https://www.instagram.com/thommitchell/" target="_blank">Thom Mitchell</a>
+          Photography by <a href="https://www.colebennetts.com.au/" target="_blank">Cole Bennetts</a> 
           <br>
           Website powered by <a href="https://roo.digital" target="_blank">RooDigital</a>
           </small>
