@@ -22,4 +22,11 @@ export default {
     #home iframe {
         display: none;
     }
+
+    @media only screen and (max-width: 600px) {
+        #app {
+            background-position: -200px 0;
+        }
+    }
+    
 </style>

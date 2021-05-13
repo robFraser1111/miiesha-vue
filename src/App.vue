@@ -52,10 +52,10 @@
 
 <script>
 // Import background images
-import homeBackground from '@/assets/miiesha-01.jpg'
-import bioBackground from '@/assets/miiesha-02.jpg'
-import watchBackground from '@/assets/miiesha-03.jpg'
-import contactBackground from '@/assets/miiesha-04.jpg'
+import homeBackground from '@/assets/miiesha-home-01.jpg'
+import bioBackground from '@/assets/miiesha-bio-01.jpg'
+import watchBackground from '@/assets/miiesha-watch-01.jpg'
+import contactBackground from '@/assets/miiesha-contact-01.jpg'
 
 // Data store
 export default {

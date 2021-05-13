@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style>
+
     a {
         color:#ffffff;
     }
@@ -32,4 +33,11 @@ export default {
     .contact p {
         font-size: 24px;
     }
+
+    @media only screen and (max-width: 600px) {
+        #app {
+            background-position: 600px 0;
+        }
+    }
+
 </style>
