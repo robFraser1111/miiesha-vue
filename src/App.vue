@@ -18,7 +18,7 @@
                 <router-link to="/watch">
                     <li>WATCH</li>
                 </router-link>
-                <a href="https://miiesha.myshopify.com">
+                <a href="https://store.sound-merch.com.au/collections/miiesha">
                     <li>SHOP</li>
                 </a>
                 <router-link to="/contact">
