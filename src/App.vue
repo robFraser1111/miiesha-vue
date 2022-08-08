@@ -2,7 +2,7 @@
 // Import components
 import Subscribe from "@/components/Subscribe.vue";
 // Import background images
-import homeBackground from "@/assets/miiesha-home-01.jpg";
+import homeBackground from "@/assets/miiesha-home_00.jpeg";
 import bioBackground from "@/assets/miiesha-bio-01.jpg";
 import watchBackground from "@/assets/miiesha-watch-01.jpg";
 import contactBackground from "@/assets/miiesha-contact-01.jpg";
@@ -27,6 +27,8 @@ export default {
       } else if (this.$route.path === "/watch") {
         this.background = watchBackground;
       } else if (this.$route.path === "/contact") {
+        this.background = contactBackground;
+			} else if (this.$route.path === "/shows") {
         this.background = contactBackground;
       } else {
         this.background = homeBackground;
@@ -168,7 +170,7 @@ li:hover {
         <router-link to="/watch">
           <li>WATCH</li>
         </router-link>
-        <a href="https://store.sound-merch.com.au/collections/miiesha">
+        <a href="https://store.sound-merch.com.au/collections/miiesha" target="_blank">
           <li>SHOP</li>
         </a>
         <router-link to="/contact">
