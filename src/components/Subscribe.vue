@@ -36,6 +36,7 @@ export default {
 #mc_embed_signup {
   background: none;
   width: 100%;
+	
 }
 
 .response, .mce_inline_error {
@@ -51,27 +52,32 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
   background: rgb(0, 13, 19, 0.5);
   color: #fff;
+	
 }
 
 input {
+	border: none;
+	text-align: center;
   width: 180px;
-  padding: 5px;
-  margin-bottom: 5px;
+  padding: 5px 6px;
+  margin-bottom: 2px;
+	font-family: "Varela Round", Roboto, Arial;
 }
 
 button {
   background: #2c3e50;
   color: #fff;
   border: none;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px 5px;
+  border-radius: 3px;
   font-size: 16px;
   cursor: pointer;
   margin-top: 5px;
   width: 192px;
+	font-family: "Varela Round", Roboto, Arial;
 }
 </style>
 
@@ -80,7 +86,7 @@ button {
     <form action="https://miiesha.us12.list-manage.com/subscribe/post?u=8d1035d26e1dc1e203204657f&amp;id=770e85a280" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
         <div class="mc-field-group">
-          <input type="email" value="" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" />
+          <input type="email" value="" placeholder="Email address" name="EMAIL" class="required email" id="mce-EMAIL" />
         </div>
         <div id="mce-responses" class="clear foot">
           <div class="response" id="mce-error-response" style="display:none"></div>

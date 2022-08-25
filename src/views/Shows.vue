@@ -27,9 +27,7 @@ export default {
 }
 
 @media only screen and (max-width: 600px) {
-  #app {
-    background-position: 600px 0;
-  }
+
   .bit-event {
     flex-direction: column !important;
   }
@@ -37,5 +35,78 @@ export default {
   .bit-widget-container {
     max-width: 375px;
   }
+}
+
+
+/*-------- BIT overrides ---------*/
+
+
+.bit-widget-container { margin: 0px auto; }
+.bit-widget { 
+	background-color: transparent!important;
+	font-family: "Varela Round", Roboto, Arial!important;
+}
+.bit-nav-bar-container,
+.bit-widget .bit-top-track-button,
+.bit-widget .bit-play-my-city-button,
+.bit-widget .bit-rsvp {
+	display: none!important;
+}
+.bit-widget .bit-event {
+	border-top: 1px solid #2c3e50!important 
+}
+.bit-widget .bit-event, .bit-venue {
+	border-top: none;
+	color: #fff!important;
+}
+.bit-widget .bit-venue {
+	margin-bottom: 5px;
+}
+.bit-widget .bit-upcoming-events, bit-past-events {
+	border-bottom: 1px solid #2c3e50!important 
+}
+.bit-date {
+	font-weight: normal!important;
+	font-size: 14px;
+	margin-bottom: 10px;
+	display: block!important;
+}
+.bit-location {
+	color: #fff;
+	width: 100%;
+	font-weight: normal!important;
+	font-size: 20px;
+	line-height: 38px;
+}
+.bit-upcoming-events a {
+	background-color: transparent!important;
+	transition: all ease-in-out 0.15s;
+	-moz-transition: all ease-in-out 0.15s;
+	-webkit-transition: all ease-in-out 0.15s;
+}
+.bit-widget .bit-event .bit-rsvp, 
+.bit-widget .bit-event .bit-offers { 
+	font-size: 20px!important;
+	font-weight: normal!important;
+}
+a.bit-button, input.bit-button {
+	text-align: center!important;
+	line-height: 30px!important;
+	color: #fff !important;
+	background-color: #2c3e50 !important;
+	padding: 0px !important;
+	text-decoration: none;
+	max-width: 180px;
+	margin: 0 auto;
+	transition: all ease-in-out 0.15s;
+	-moz-transition: all ease-in-out 0.15s;
+	-webkit-transition: all ease-in-out 0.15s;
+	border: #2c3e50 2px solid!important;
+	border-radius: 3px;
+}
+a.bit-button:hover, input.bit-button:hover {
+		color: #fff !important;
+		background-color: transparent!important;
+		border: #fff 2px solid!important;;
 }
 </style>
