@@ -1,4 +1,4 @@
-# miiesha
+# Miiesha
 
 ## Project setup
 ```
